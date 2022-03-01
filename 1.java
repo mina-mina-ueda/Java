@@ -43,3 +43,16 @@ class Ex1_05_1 {
     boolean  isPreviousGraduate     = true ;     //自分が既卒がどうか
 	}
 }
+
+boolean answer4 = (5>=3+2||2+8!=9) && !(6==2+4);
+System.out.println(answer4);
+
+int calc2 = 10;
+int answer2 = ++calc2;
+System.out.println(calc2);
+System.out.println(answer3);
+
+int calc3 = 10;
+int answer3 = calc3++;
+System.out.println(calc3);
+System.out.println(answer3);
